@@ -1,4 +1,7 @@
-<p>
-  movies-list works!
-</p>
-<button (click)="showMovies()">Good Luck!</button>
+<ul class="list-group list-group-sm" id="movies-list">
+  <div *ngFor="let movie of movies | async">
+    <li #selectMovie (click)="storeMovieDetails(selectMovie.value)" value="{{movie.id}}" class="list-group-item" id="movie">
+      {{movie.title}}
+    </li>
+  </div>
+</ul>

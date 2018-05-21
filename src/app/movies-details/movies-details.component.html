@@ -1,0 +1,19 @@
+<ul class="list-group" id="movies-list">
+  <div *ngFor="let data of movie | async ">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <img *ngIf="data?.poster_path" class="movie-image" src="https://image.tmdb.org/t/p/w342{{data?.poster_path}}" />
+        </div>
+        <div class="col-sm-9">
+            <p id="movie-title">{{data?.title}}</p>
+            <p id="movie-release"> <span *ngIf="data?.release_date">Release Date:</span> {{data?.release_date}}</p>
+            <p id="movie-overview"> <span *ngIf="data?.overview">Overview:</span> {{data?.overview}}</p>
+            <p id="movie-rating"> <span *ngIf="data?.vote_average">Rating:</span> {{data?.vote_average}}
+              <img *ngIf="data?.vote_average" src="assets/Images/star.png">
+            </p>
+          </div>
+      </div>
+    </div>
+  </div>
+</ul>

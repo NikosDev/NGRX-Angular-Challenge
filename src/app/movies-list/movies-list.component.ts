@@ -16,20 +16,23 @@ import * as fromRoot from '../store/reducers';
 })
 export class MoviesListComponent implements OnInit {
   movies: Observable<Movie[]>;
+  movie: Observable<Movie[]>;
 
   constructor(
     private store: Store<fromRoot.State>, 
     private moviesService: MoviesService
   ) {
     this.movies = store.select(fromRoot.allMovies);
+    this.movie = store.select(fromRoot.selectedMovie);
   }
 
   ngOnInit() {
-    this.showMovies();
-  }
-
-  showMovies(){
     this.moviesService.getMovies()
     .subscribe(results => this.store.dispatch(new SearchActions.AllMovies(results)));
+  }
+
+  storeMovieDetails(id){
+    let filteredMovie =this.movies.map(res => res.filter(movie => movie.id == id))    
+    filteredMovie.subscribe(res=> this.store.dispatch(new SearchActions.SelectedMovie(res)))
   }
 }

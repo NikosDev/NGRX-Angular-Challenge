@@ -1,0 +1,39 @@
+#navbarColor {
+    background-color: rgb(8, 28, 36);
+}
+   
+.logo-position {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    max-width: 60px;
+    max-height: 60px;
+}
+   
+.navbar {
+    border-radius: 0 !important;
+    border: 0!important;
+}
+   
+.logo-text {
+    color:white;
+    display: inline;
+    padding-left: 10px;
+    white-space: nowrap;
+    font-size: 32px;
+}
+
+#searchbar{
+    padding-bottom: 5px;
+}
+
+
+::-webkit-input-placeholder {
+    font-size: 14px!important;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+       font-size: 14px!important;
+ }
+ ::-moz-placeholder {  /* Firefox 19+ */
+       font-size: 14px!important;
+ }

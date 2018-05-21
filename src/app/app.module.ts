@@ -7,18 +7,23 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { EffectsModule } from '@ngrx/effects';
 
 import { reducers } from "./store/reducers";
-import { MoviesEffects } from "./store/effects/movies-effects";
  
 import { AppComponent } from './app.component';
-import { MoviesService } from "./movies.service";
 import { MoviesListComponent } from './movies-list/movies-list.component';
+import { NavbarComponent } from "./navbar/navbar.component";
+import { SearchBarComponent } from "./navbar/search-bar/search-bar.component";
+import { MoviesService } from "./movies.service";
 import { ErrorHandlerService } from "./error-handler/error-handler.service";
+import { MoviesDetailsComponent } from './movies-details/movies-details.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    MoviesListComponent
+    NavbarComponent,
+    SearchBarComponent,
+    MoviesListComponent,
+    MoviesDetailsComponent
   ],
   imports: [
     BrowserModule,

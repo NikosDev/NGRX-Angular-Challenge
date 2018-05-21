@@ -1,0 +1,6 @@
+<div class="d-inline-flex container">
+      <input #movieTitle class="form-control mr-sm-2" type="text" placeholder="Find a movie" value="" (keyup.enter)="searchKey(movieTitle.value)">
+      <div class="row">
+            <button class="btn btn-success col- btn-block"  (click)="searchKey(movieTitle.value)">Search</button>
+      </div>
+</div>

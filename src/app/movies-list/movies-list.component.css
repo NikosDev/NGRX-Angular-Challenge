@@ -1,0 +1,10 @@
+#movies-list{
+    height: 80vh;
+    overflow-y: scroll;
+}
+
+#movie{
+    margin-bottom: 10px;
+    padding: 8px;
+    cursor: pointer;
+}

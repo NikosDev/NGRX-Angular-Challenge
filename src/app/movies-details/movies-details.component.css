@@ -1,0 +1,38 @@
+.list-group-item{
+    height: 80vh;
+    padding: 0 !important;
+}
+
+.movie-image{
+    height: 100%;
+    width: 100%;
+}
+
+#movie-title{
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+#movie-release span{
+    font-weight: bold;
+}
+
+#movie-overview span{
+    font-weight: bold;
+}
+
+#movie-overview{
+    display: inline-block;
+    height: auto;
+    width: auto;
+}
+
+#movie-rating span{
+    font-weight: bold;
+}
+
+#movie-rating img{
+    height: 18px;
+    width: 18px;
+    margin-bottom:5px;
+}
