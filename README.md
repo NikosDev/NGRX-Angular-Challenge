@@ -1,27 +1,29 @@
-# NGRXTheMovieDB
+# NGRX MovieDB
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+This project was generated with  [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3  :trident:
 
-## Development server
+# Demo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+[http://ngrx-moviedb.surge.sh ](http://ngrx-moviedb.surge.sh )   :octocat:
 
-## Code scaffolding
+# Build With
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* [Angular 5](https://angular.io/) - Javascript Framework  
+* [Bootstrap 4](https://getbootstrap.com/docs/4.1/getting-started/introduction/) - Html/Css Library  
+* [Toastr](https://github.com/CodeSeven/toastr) - Javascript Notification Library  
+* [Rxjs](http://reactivex.io/rxjs/) - RxJS is a library for reactive programming using Observables  
+* [The Movie Database API](https://www.themoviedb.org/) - Movie Database API 
+* [NGRX]( https://github.com/ngrx/platform) - Redux for Angular Apps
 
-## Build
+# Instalation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Run `npm install` to install npm packages. Then `ng serve` to start the development server  :star:
 
-## Running unit tests
+# Development server
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.  
+The app will automatically reload if you change any of the source files  :zap:
 
-## Running end-to-end tests
+# Further help
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md)  
