@@ -2,7 +2,7 @@
   <div *ngFor="let data of movie | async ">
     <div class="container">
       <div class="row">
-        <div class="col-sm-3">
+        <div class="col-md-3">
           <img *ngIf="data?.poster_path" class="movie-image" src="https://image.tmdb.org/t/p/w342{{data?.poster_path}}" />
         </div>
         <div class="col-sm-9">

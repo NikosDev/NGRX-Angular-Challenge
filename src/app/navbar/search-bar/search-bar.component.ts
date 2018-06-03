@@ -25,7 +25,7 @@ export class SearchBarComponent {
   searchKey(term: string){
     this.store.dispatch(new SearchActions.SearchTerm(term));
 
-    let filteredMovie =this.movies.map(res => res.filter(movie => movie.title.toLowerCase() == term.toLowerCase()))
-    filteredMovie.subscribe(res => this.store.dispatch(new SearchActions.SelectedMovie(res)))
+    let filteredMovie =this.movies.map(res => res.find( movie => movie.title.toLowerCase().includes( term.toLowerCase() ) ))
+    filteredMovie.subscribe(res => this.store.dispatch(new SearchActions.SelectedMovie([res])))
   }
 }
