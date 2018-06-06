@@ -1,0 +1,8 @@
+.form-control{
+    display: inline-block;
+    width: auto;
+}
+
+#submit-button{
+    margin-bottom: 5px;
+}

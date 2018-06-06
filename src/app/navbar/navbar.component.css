@@ -12,6 +12,12 @@
 .navbar {
     border-radius: 0 !important;
     border: 0!important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-toggler{
+    border: 1px solid #00d474 !important;
 }
    
 .logo-text {
@@ -36,4 +42,8 @@
  }
  ::-moz-placeholder {  /* Firefox 19+ */
        font-size: 14px!important;
+ }
+
+ #project-title{
+    margin-right: auto;
  }
