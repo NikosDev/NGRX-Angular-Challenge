@@ -4,7 +4,7 @@ This project was generated with  [Angular CLI](https://github.com/angular/angula
 
 # Demo
 
-[http://ngrx-moviedb.surge.sh ](http://ngrx-moviedb.surge.sh )   :octocat:
+[ngrx-angular-movies.surge.sh ](ngrx-angular-movies.surge.sh )   :octocat:
 
 # Build With
 
