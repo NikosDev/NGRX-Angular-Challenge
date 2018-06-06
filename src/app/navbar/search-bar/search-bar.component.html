@@ -1,13 +1,6 @@
-<!-- <div class="d-inline-flex container">
-      <input #movieTitle class="form-control mr-sm-2" type="text" placeholder="Find a movie" value="" (keyup.enter)="searchKey(movieTitle.value)">
-      <div class="row">
-            <button class="btn btn-success col- btn-block"  (click)="searchKey(movieTitle.value)">Search</button>
-      </div>
-</div> -->
 <div class="d-inline">
       <div class="col-">
-      <input #movieTitle class="form-control" placeholder="Find Movie..." aria-label="Search" type="text" (keyup.enter)="searchKey(movieTitle.value)">
-
-      <button class="btn btn-outline-success" id="submit-button" (click)="searchKey(movieTitle.value)" type="submit">Search</button>
-</div>
+            <input #movieTitle class="form-control" placeholder="Find Movie..." aria-label="Search" type="text" (keyup.enter)="searchKey(movieTitle.value)">
+            <button class="btn btn-outline-success" id="submit-button" (click)="searchKey(movieTitle.value)" type="submit">Search</button>
+      </div>
 </div>
